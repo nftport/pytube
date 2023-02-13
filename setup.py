@@ -20,7 +20,7 @@ setup(
     author_email="hey@pytube.io",
     packages=["pytube", "pytube.contrib"],
     package_data={"": ["LICENSE"],},
-    url="https://github.com/pytube/pytube",
+    url="https://github.com/nftport/pytube",
     license="The Unlicense (Unlicense)",
     entry_points={
         "console_scripts": [
