@@ -220,7 +220,7 @@ class Search:
         :returns:
             The raw json object returned by the innertube API.
         """
-        query_results = self._innertube_client.search(self.query, continuation, self.filters)
+        query_results = self._innertube_client.search(self.query, continuation)
         if not self._initial_results:
             self._initial_results = query_results
         return query_results  # noqa:R504
